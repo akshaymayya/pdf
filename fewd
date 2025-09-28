@@ -21,8 +21,6 @@ color: red;
 <input type="text" id="studentId" required>
 <br>
 
-FRONT END WEB DEVELOPMENT CS1102-1 Lab Manual
-
 <label for="studentName">Student Name:</label>
 <input type="text" id="studentName" required>
 <br>
@@ -50,9 +48,6 @@ event.preventDefault();
 
 const studentId = document.getElementById('studentId').value;
 const studentName = document.getElementById('studentName').value;
-
-FRONT END WEB DEVELOPMENT CS1102-1 Lab Manual
-
 const studentAge = document.getElementById('studentAge').value;
 
 try {
@@ -80,8 +75,6 @@ const studentExists = students.some(student => student.id === id);
 if (studentExists) {
 throw new Error('Student ID already exists.');
 }
-
-FRONT END WEB DEVELOPMENT CS1102-1 Lab Manual
 
 const student = {
 id,
